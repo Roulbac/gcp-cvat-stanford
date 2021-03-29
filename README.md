@@ -171,6 +171,7 @@ Install docker-compose, which we use for container orchestration.
 
 ```bash
 sudo apt-get --no-install-recommends install -y python3-pip python3-setuptools git
+python3 -m pip install --upgrade pip
 sudo python3 -m pip install setuptools docker-compose
 ```
 
